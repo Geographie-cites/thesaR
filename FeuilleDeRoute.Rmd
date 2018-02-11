@@ -1,0 +1,28 @@
+---
+title: "Feuille de route"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Idées
+
+- développer un explorateur de titres
+- développer un générateur automatique de titres (selon mot-clé)
+- développer un explorateur de jurys (fréquence, réseaux)
+- développer un générateur automatique de jurys (selon mot-clé)
+- exploration et génération avec sélection de date et de mot-clé : ex. générer un titre de thèse des années 1990 sur la ville
+- faire un grand graphe des docteurs et des directeurs (la base remonte seulement au milieu des années 1980)
+- étendre l'outil à toutes les disciplines
+
+
+## Problèmes identifiés
+
+- récupération des numéros d'identification des personnes (`ppn`) et appariement avec les noms de personnes (pb. d'ordre et de doublon dans la comparaison de `personne` et `ppn`)
+
+
+
+
+
